@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+body {
+  align-items: center;
+  background-color: #f0fff0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+  margin-top: 50px;
+  margin-left: 15px;
+}
+.btn{
+  width: 90px;
+  height: 60px;
+  font-size: 15px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  vertical-align: top;
+  transition: .6s ease-in-out;
+}
+.btn:hover{
+  cursor: pointer;
+}
+
+
+.btn2{
+  width: 90px;
+  height: 60px;
+  font-size: 15px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  vertical-align: top;
+  transition: .6s ease-in-out;
+}
+.btn2:hover{
+  cursor: pointer;
+}
+
+.btn-property{
+  background: linear-gradient(145deg, #800080, #ffc0cb);
+  border: 3px solid rgba(255, 255, 255, .4);
+}
+
+
+.btn-property:focus, 
+.btn-property-pressed:focus{
+  border: 3px solid rgba(46, 74, 112, .75);
+}
